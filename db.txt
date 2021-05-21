@@ -1,0 +1,20 @@
+Modellizzare la struttura di una tabella 
+per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+AUTO USATE 
+
+ID : SMALLINT - UNIVOQUE - PRIMARY KEY - NOTNULL - AUTO_INCREMENT
+Prezzo : 
+Marca :
+Modello :
+Cilindrata(potenza in KW) :
+Anno di immatricolazione :
+KM percorsi :
+N.Proprietari :
+Manutenzioni fatte :
+Stato pneumatici :
+N. Marce(0 se automatico) : 
+Descrizione condizioni :
+
+
+
