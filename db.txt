@@ -3,18 +3,18 @@ per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un
 
 AUTO USATE 
 
-ID : SMALLINT - UNIVOQUE - PRIMARY KEY - NOTNULL - AUTO_INCREMENT
-Prezzo : 
-Marca :
-Modello :
-Cilindrata(potenza in KW) :
-Anno di immatricolazione :
-KM percorsi :
-N.Proprietari :
-Manutenzioni fatte :
-Stato pneumatici :
-N. Marce(0 se automatico) : 
-Descrizione condizioni :
+ID : SMALLINT - UNIVOQUE - PRIMARY KEY - NOTNULL - AUTO_INCREMENT 
+Prezzo : FLOAT(7,2) - NOTNULL
+Marca : VARCHAR(30) - NOTNULL
+Modello : VARCHAR(30) - NOTNULL
+Cilindrata(potenza in KW) : SMALLINT
+Anno di immatricolazione : YEAR - NOTNULL
+KM percorsi : MEDIUMINT - NOTNULL
+N.Proprietari : TINYINT
+Manutenzioni fatte : TINYINT
+Stato pneumatici : VARCHAR(10)
+N. Marce(0 se automatico) : TINYINT
+Descrizione condizioni : TEXT 
 
 
 
